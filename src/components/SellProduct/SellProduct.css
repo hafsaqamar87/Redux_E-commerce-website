@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(243, 239, 239);
+}
+.sell_title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: crimson;
+}
+.sell_form{
+    height:700px;
+    width:700px;
+    box-shadow: 0 2px 8px rgba(75, 63, 63, 0.26);
+    background-color: rgb(247, 244, 244);
+    border-radius: 10px;
+    /* text-align: center; */
+    justify-content: center;
+    margin-left: 400px;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+input[type=submit],textarea:hover {
+    background-color: #e1ece1;
+  }
+  
+  input:hover {
+    background-color: #f5f7ec;
+  }
+input,textarea{
+width:90%;
+padding: 12px 20px;
+margin-left: 6px ;
+
+/* display: inline-block; */
+flex-direction: row;
+}
+.submit_button{
+    width: 97%;
+  background-color: crimson;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h3{
+    /* display:inline ; */
+    margin-right:30px ;
+}

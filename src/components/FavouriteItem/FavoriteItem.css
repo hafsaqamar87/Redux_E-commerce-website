@@ -1,0 +1,47 @@
+  .wrapper{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .image_size{
+    width:400px;
+    border-radius: 10px;
+  }
+  .delete_btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ .title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+  }
+  
+  .description{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  .price {
+    font-size: 20px;
+    color: crimson;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .wrapper{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+  
+  }

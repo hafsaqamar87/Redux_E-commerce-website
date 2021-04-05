@@ -1,0 +1,80 @@
+.product {
+    width: 400px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .product__image {
+    width: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+ 
+  }
+  
+  .product__details {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .details__title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+  }
+  
+  .details__desc {
+    font-size: 1rem;
+    color: var(--secondary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+  }
+  
+  .details__price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: crimson;
+  }
+  
+  .product__buttons {
+    display: flex;
+    flex-direction: row;
+    background-color: crimson;
+    color: white;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  
+  .buttons__btn {
+    
+    width: 150px;
+    padding: 0.5rem;
+    border: 0px solid rgb(242, 242, 247);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .buttons__btn:hover {
+    opacity: 0.7;
+  }
+  
+  .buttons__view {
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: var(--light-color);
+    color: white;
+  }
+  
+  .buttons__add {
+    background: var(--secondary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--light-color);
+  }
